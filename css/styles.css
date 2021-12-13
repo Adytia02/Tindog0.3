@@ -17,6 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 #sticky{
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 #navbar {
@@ -73,6 +74,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 10%;
   top: 30%;
+  z-index: 0;
 }
 .judul1{
   font-family: 'Montserrat';
@@ -113,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Download Button */
 .download-button {
   margin: 5% 3% 5% 0;
-  font-size: 16px;
+  font-size: 24px;
   background-color: white;
 }
 
@@ -121,13 +123,33 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Features */
-
+#features{
+  height: 400px;
+}
 
 .features-box {
   padding: 5%;
 
+
 }
 
+.features-box1{
+
+  position: relative;
+  right: 50%;
+  top: 10%;
+}
+.features-box2{
+  position: relative;
+  bottom: 176px;
+}
+
+.features-box3{
+  position: relative;
+  left : 450px;
+  bottom: 352px;
+
+}
 .check-circle {
   color: #ef8172;
   margin-bottom: 1rem;
@@ -196,6 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 /* <!-- Pricing --> */
 #pricing {
   padding: 100px;
+  height: 550px;
 }
 
 .price-text {
@@ -203,11 +226,54 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
-.column-pricing {
+.column-pricing1 {
   padding: 3% 2%;
   border: solid 1px;
+  width: 25%;
 }
+.column-pricing2{
+  padding: 3% 2%;
+  border: solid 1px;
+  width: 25%;
+  position: relative;
+  left: 400px;
+  bottom: 423px;
+}
+.column-pricing3{
+  padding: 3% 2%;
+  border: solid 1px;
+  width: 25%;
+  position: relative;
+  left: 800px;
+  bottom: 843px;
+}
+.btn-price{
+    display: block;
+    width: 100%;
+    border: solid;
+    background-color: #fff;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
 
+}
+.btn-price2{
+  display: block;
+  width: 100%;
+  border: solid;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  color: white;
+}
+.type{
+  border: solid 0.5px;
+  background-color: #F7F7F7;
+
+}
 .link {
   color: black;
   margin: 20px 10px;
